@@ -1,19 +1,23 @@
 🎭 IMDB Sentiment Analysis 🎥🎭
+
 📌 Project Overview
-This project analyzes IMDB movie reviews to classify them as positive or negative using machine learning. The system performs data ingestion, preprocessing, model training, and sentiment prediction, and provides a user-friendly interface for interaction.
+        
+        This project analyzes IMDB movie reviews to classify them as positive or negative using machine learning. The system performs data ingestion, preprocessing, model training, and sentiment prediction, and 
+        provides a user-friendly interface for interaction.
 
 🚀 Features
-Data Ingestion: Loads IMDB dataset into a structured format.
 
-Data Preprocessing: Cleans and vectorizes text using TF-IDF.
-
-Model Training: Uses Machine Learning (Logistic Regression, SVM, etc.) to classify sentiments.
-
-Database Integration: Stores processed data in MySQL.
-
-Web Interface: Flask-based UI for user interaction.
-
-Logging & Exception Handling: Monitors process execution.
+     Data Ingestion: Loads IMDB dataset into a structured format.
+     
+     Data Preprocessing: Cleans and vectorizes text using TF-IDF.
+     
+     Model Training: Uses Machine Learning (Logistic Regression, SVM, etc.) to classify sentiments.
+     
+     Database Integration: Stores processed data in MySQL.
+     
+     Web Interface: Flask-based UI for user interaction.
+     
+     Logging & Exception Handling: Monitors process execution.
 
 
 🛠 Installation & Setup
@@ -45,28 +49,29 @@ Logging & Exception Handling: Monitors process execution.
 
 📡 API Endpoints
 
-  Endpoint	Method	Description
-    /predict	POST	Predicts sentiment for user input.
-    /history	GET	Retrieves past predictions.
+       Endpoint	Method	Description
+         /predict	POST	Predicts sentiment for user input.
+         /history	GET	Retrieves past predictions.
 
 🔍 Example Usage
-
-  After starting the Flask app, visit:
-    
-    🔗 http://127.0.0.1:5000
-
-Enter a movie review, and the app will predict its sentiment.
+     
+       After starting the Flask app, visit:
+         
+         🔗 http://127.0.0.1:5000
+     
+     Enter a movie review, and the app will predict its sentiment.
 
 📝 Notes
 
-Make sure MySQL is running before executing database-related scripts.
-If any package is missing, install it using pip install <package_name>.
-Model predictions are stored in the database for reference.
+     Make sure MySQL is running before executing database-related scripts.
+     If any package is missing, install it using pip install <package_name>.
+     Model predictions are stored in the database for reference.
 
 🎯 Future Enhancements
-🔹 Deep Learning Model (LSTM, BERT) for better accuracy.
-🔹 Deploy on Cloud (AWS, GCP, or Heroku).
-🔹 Interactive Dashboard for sentiment analysis insights.
+
+          🔹 Deep Learning Model (LSTM, BERT) for better accuracy.
+          🔹 Deploy on Cloud (AWS, GCP, or Heroku).
+          🔹 Interactive Dashboard for sentiment analysis insights.
 
 🏆 Credits
 Developed by Kolchelma Sai Kiran 🎯
