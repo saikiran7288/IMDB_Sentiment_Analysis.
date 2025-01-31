@@ -7,17 +7,17 @@ provides a user-friendly interface for interaction.
 
 🚀 Features
 
-     Data Ingestion: Loads IMDB dataset into a structured format.
-     
-     Data Preprocessing: Cleans and vectorizes text using TF-IDF.
-     
-     Model Training: Uses Machine Learning (Logistic Regression, SVM, etc.) to classify sentiments.
-     
-     Database Integration: Stores processed data in MySQL.
-     
-     Web Interface: Flask-based UI for user interaction.
-     
-     Logging & Exception Handling: Monitors process execution.
+Data Ingestion: Loads IMDB dataset into a structured format.
+
+Data Preprocessing: Cleans and vectorizes text using TF-IDF.
+
+Model Training: Uses Machine Learning (Logistic Regression, SVM, etc.) to classify sentiments.
+
+Database Integration: Stores processed data in MySQL.
+
+Web Interface: Flask-based UI for user interaction.
+
+Logging & Exception Handling: Monitors process execution.
 
 
 🛠 Installation & Setup
