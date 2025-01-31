@@ -1,6 +1,8 @@
 🎭 IMDB Sentiment Analysis 🎥🎭
+
 📌 Project Overview
-This project analyzes IMDB movie reviews to classify them as positive or negative using machine learning. The system performs data ingestion, preprocessing, model training, and sentiment prediction, and provides a user-friendly interface for interaction.
+
+ This project analyzes IMDB movie reviews to classify them as positive or negative using machine learning. The system performs data ingestion, preprocessing, model training, and sentiment prediction, and provides a user-friendly interface for interaction.
 
 🚀 Features
 
