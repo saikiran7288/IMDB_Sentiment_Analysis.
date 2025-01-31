@@ -1,0 +1,12 @@
+setup.py
+Db/__init__.py
+Db/imdb_data.py
+config/__init__.py
+config/db_setupt.py
+constants/__init__.py
+exception/__init__.py
+imdb_sentiments_analysis.egg-info/PKG-INFO
+imdb_sentiments_analysis.egg-info/SOURCES.txt
+imdb_sentiments_analysis.egg-info/dependency_links.txt
+imdb_sentiments_analysis.egg-info/top_level.txt
+logger/__init__.py
