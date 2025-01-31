@@ -22,9 +22,8 @@ Logging & Exception Handling: Monitors process execution.
 
  1️⃣ Create a Virtual Environment
     
-    python -m venv python ==9.0
-    source venv/bin/activate  # On Mac/Linux
-    env\Scripts\activate     # On Windows
+    conda create -p venv python==3.8
+    conda activate venv/
     
 2️⃣ Install Dependencies
      
