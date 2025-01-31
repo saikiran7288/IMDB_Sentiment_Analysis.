@@ -22,7 +22,7 @@ Logging & Exception Handling: Monitors process execution.
 
  1️⃣ Create a Virtual Environment
     
-    conda create -p venv python==3.8
+    conda create -p venv python==3.9
     conda activate venv/
     
 2️⃣ Install Dependencies
