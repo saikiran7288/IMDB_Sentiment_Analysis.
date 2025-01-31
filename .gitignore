@@ -133,3 +133,57 @@ dmypy.json
 
 
 
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore virtual environment folders
+.venv/
+venv/
+
+# Ignore database files
+*.sqlite
+*.db
+*.mdb
+
+# Ignore sensitive model files and large dataset files
+*.pkl
+
+# Ignore log files and temporary files
+logs/
+*.log
+*.tmp
+*.bak
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore egg-info folder
+*.egg-info/
+
+# Ignore build and distribution directories
+build/
+dist/
+*.egg
+
+# Ignore config and setup files that might contain sensitive info (e.g., database credentials)
+config/db_setupt.py
+
+# Ignore notebooks and temp notebooks
+notebook/*.ipynb
+
+# Ignore web UI templates' temporary files if any
+templates/*.log
+
+# Ignore constants folder (sensitive data like DB credentials)
+constants/
